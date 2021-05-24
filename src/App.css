@@ -3,17 +3,16 @@ body {
   font-family: sans-serif;
   background-color: #263238;
   color: white;
-  overflow: none;
-  /* overflow-x: hidden; */
+  overflow: hidden;
 }
 
 .editor-window {
-  height: 87vh;
+  height: 86.6vh;
   width: 50vw;
 }
 
 .editor {
-  font-size: 16px;
+  font-size: 18px;
   height: 100%;
   width: 100%;
   outline: none;
@@ -21,7 +20,7 @@ body {
   resize: none;
   margin: 0;
   padding: 1em;
-  background-color: whitesmoke;
+  background-color: rgb(230, 230, 230);
 }
 
 .editor:focus {
@@ -33,7 +32,7 @@ body {
 }
 
 .preview {
-  background-color: whitesmoke;
+  background-color: rgb(230, 230, 230);
   color: black;
   /* padding: 1rem; */
   width: 50vw;

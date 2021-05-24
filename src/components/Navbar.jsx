@@ -8,9 +8,9 @@ const Navbar = (props) => {
             <div>
                 <h1>Markdown Previewer</h1>
             </div>
-            <div>
-                <button className="copy" onClick={props.copyToClipboard}>Copy</button>
-                <button className="clear" onClick={props.clear}>Clear</button>
+            <div className="buttons">
+                <button className="copy" onClick={props.copyToClipboard}><i class="far fa-clipboard"></i>&nbsp;&nbsp;Copy</button>
+                <button className="clear" onClick={props.clear}><i class="fas fa-trash"></i>&nbsp;&nbsp;Clear</button>
             </div>
         </div>
     )

@@ -3,7 +3,7 @@
   /* text-align: center; */
   padding: 0.5rem 1rem 0;
   width: 98.3vw;
-  height: 5vh;
+  /* height: 5vh; */
   display: flex;
   justify-content: space-between;
 }
@@ -20,16 +20,18 @@ button {
 .copy {
   margin-right: 1rem;
   margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  background-color: rgb(51, 160, 51);
 }
 
 .clear {
   margin-left: 1rem;
   margin-right: 0 0.5rem;
+  background-color: rgb(255, 70, 70);
 }
 
 .copy,
 .clear {
-  background-color: rgb(80, 80, 80);
   border: none;
   color: white;
   border-radius: 5px;
@@ -38,4 +40,8 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+.buttons {
+  box-decoration-break: clone;
 }
